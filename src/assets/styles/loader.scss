@@ -24,7 +24,6 @@
         width: 90vw;
       }
     }
-    
   }
   &__bar {
     width: 90%;
@@ -38,7 +37,7 @@
 
     &--inner {
       height: 100%;
-      width: 50%;
+      width: 0%;
       border-radius: 2px;
       background: #6cff8d;
     }
@@ -55,10 +54,10 @@
     justify-content: center;
 
     @media (max-width: 355px) {
-        & {
-          font-size: 18px;
-        }
+      & {
+        font-size: 18px;
       }
+    }
 
     &--dot {
       width: 15px;
@@ -105,6 +104,18 @@
 
     &--number {
       color: #6cff8d;
+    }
+  }
+
+  &__width_animation {
+    animation: width_animation 1s;
+    @keyframes width_animation {
+      from {
+        width: 85%;
+      }
+      to {
+        width: 130px;
+      }
     }
   }
 }

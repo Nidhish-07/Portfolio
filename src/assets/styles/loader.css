@@ -76,7 +76,7 @@ svg {
 }
 .loading__bar--inner {
   height: 100%;
-  width: 50%;
+  width: 0%;
   border-radius: 2px;
   background: #6cff8d;
 }
@@ -136,4 +136,15 @@ svg {
 }
 .loading__counter--number {
   color: #6cff8d;
+}
+.loading__width_animation {
+  animation: width_animation 1s;
+}
+@keyframes width_animation {
+  from {
+    width: 85%;
+  }
+  to {
+    width: 130px;
+  }
 }/*# sourceMappingURL=loader.css.map */
