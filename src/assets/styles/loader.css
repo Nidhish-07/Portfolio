@@ -147,4 +147,12 @@ svg {
   to {
     width: 130px;
   }
+}
+.loading__svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  opacity: 0;
 }/*# sourceMappingURL=loader.css.map */
